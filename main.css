@@ -4,12 +4,15 @@ html, body {
 
 html {
     height: 100%;
+    overflow-y: scroll;
 }
 
 body {
     min-height: 100%;
     background: rgb(244, 245, 247);
     font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
@@ -90,6 +93,10 @@ nav a.active {
     margin-right: 20px;
 }
 
+.toggle:hover {
+    cursor: pointer;
+}
+
 .container {
     display: flex;
     padding: 10px;
@@ -162,6 +169,7 @@ nav a.active {
     padding: 30px 20px;
     color: rgb(255, 255, 255);
     box-sizing: border-box;
+    margin-top: auto;
 }
 
 .left {
