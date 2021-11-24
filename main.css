@@ -1,0 +1,230 @@
+html, body {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: rgb(244, 245, 247);
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Header */
+header {
+    background: white;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header .title {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color:rgb(120, 120, 120);
+}
+
+nav a.active {
+    color:rgb(59, 177, 151);
+}
+
+/* Progress Section */
+.progress-box {
+    display: flex;
+}
+
+.progress-tab {
+    width: 30%;
+    background: white;
+    margin: 5px;
+    padding: 20px;
+}
+
+.position {
+    color: rgb(120, 120, 120);
+}
+
+/* Roles */
+.roles {
+    background: white;
+    margin: 20px 5px;
+}
+
+.roles .header {
+    padding: 20px;
+    border-bottom: solid 1px rgb(240, 240, 240);
+}
+
+.roles .header .title {
+    display: flex;
+}
+
+.roles .header span {
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.inner-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card {
+    padding: 40px 20px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.complete {
+    background:rgb(239, 255, 252);
+    color:rgb(46, 190, 159);
+}
+
+.work {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.complete .name {
+    color: rgb(59, 177, 151);
+    margin-bottom: 20px;
+}
+
+.desc {
+    color: rgb(180, 180, 180);
+    font-style: italic;
+}
+
+.in-progress {
+    background:rgb(255, 255, 229);
+    color:  rgb(170, 170, 39);
+}
+
+.in-progress .name {
+    color: rgb(134, 134, 31);
+    margin-bottom: 20px;
+}
+
+.status {
+    margin-top: auto;
+}
+
+.none {
+    height: 200px;
+    line-height: 200px;
+    color:rgb(120, 120, 120);
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background:rgb(46, 190, 159);
+    padding: 30px 20px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.left {
+    padding-left: 20px;
+}
+
+.company {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* progress bar */
+
+.progress-section {
+    margin: 20px 0;
+}
+
+.progress-bar {
+    background: rgb(244, 245, 247);
+    width: 100%;
+    height: 15px;
+    border-radius: 50px;
+    z-index: 2;
+    padding: 0 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.progress {
+    background: rgb(46, 190, 159);
+    position: absolute;
+    height: 9px;
+    z-index: 3;
+    top: 3px;
+    left: 3px;
+    border-radius: 50px;
+}
+
+.progress-value {
+    margin-top: 5px;
+    text-align: right;
+    color: rgb(46, 190, 159);
+}
+
+.progress-val {
+    float: right;
+    width: 40px;
+}
+
+/* pie chart */
+
+.piebox {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.piechart {
+    display: block;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        pink 70deg, 
+        lightblue 0 235deg, 
+        orange 0);
+}
