@@ -62,130 +62,105 @@
                         assignment_turned_in
                     </span>
                     <div class="title">Assigment 1: Responsibilities</div>
+                    <div onclick="toggleDiv(1)">
+                        <span id="tog1" class="material-icons">
+                            expand_less
+                        </span>
+                    </div>
                 </div>                
             </div>  
-            <div class="container">
+            <div class="container" id="1">
                 <div class="inner-container">
-                    <a>
-                        <div class="card complete">
-                            <div class="work">Login</div>
-                            <div class="name">Lah Hong Wai</div>
-                            <div class="desc">The main login page for student portal.</div>
-                            <div class="status">Completed</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card complete">
-                            <div class="work">Register</div>
-                            <div class="name">Lah Hong Wai</div>
-                            <div class="desc">Only parents can register using a special username.</div>
-                            <div class="status">Completed</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card complete">
-                            <div class="work">Dashboard</div>
-                            <div class="name">Lah Hong Wai</div>
-                            <div class="desc">Users navigate courses, check out assignments and many more through the dashboard.</div>
-                            <div class="status">Completed</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card complete">
-                            <div class="work">Course</div>
-                            <div class="name">Lah Hong Wai</div>
-                            <div class="desc">This is the main course page, where users select specific courses.</div>
-                            <div class="status">Completed</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card complete">
-                            <div class="work">Course: View</div>
-                            <div class="name">Lah Hong Wai</div>
-                            <div class="desc">Users see their specific course here.</div>
-                            <div class="status">Completed</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card complete">
-                            <div class="work">Submission box</div>
-                            <div class="name">Lah Hong Wai</div>
-                            <div class="desc">Teachers request student submissions, complete with features.</div>
-                            <div class="status">Completed</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Assessments</div>
-                            <div class="name">Lam Pei Ling</div>
-                            <div class="desc">Users can view quizzes and exams easily with a dedicated dashboard.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Grades</div>
-                            <div class="name">Lam Pei Ling</div>
-                            <div class="desc">Grades can be seen here.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Exam</div>
-                            <div class="name">Lam Pei Ling</div>
-                            <div class="desc">Exam schedules and results can be seen here.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Assignment</div>
-                            <div class="name">Lam Pei Ling</div>
-                            <div class="desc">Assignment schedules and results can be seen here.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Calendar: Weekly</div>
-                            <div class="name">Zhang Hanjie</div>
-                            <div class="desc">Weekly calendar for viewing</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Calendar: Academic</div>
-                            <div class="name">Zhang Hanjie</div>
-                            <div class="desc">Shows the academic calendar for the year.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Profile: Student</div>
-                            <div class="name">Zhang Hanjie</div>
-                            <div class="desc">Shows the profile for student.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Profile: Parent</div>
-                            <div class="name">Zhang Hanjie</div>
-                            <div class="desc">Shows the profile for parents.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
-                    <a>
-                        <div class="card in-progress">
-                            <div class="work">Profile: Teacher</div>
-                            <div class="name">Zhang Hanjie</div>
-                            <div class="desc">Shows the profile for teachers.</div>
-                            <div class="status">In progress</div>                    
-                        </div>
-                    </a>
+                    <div class="card complete">
+                        <div class="work">Login</div>
+                        <div class="name">Lah Hong Wai</div>
+                        <div class="desc">The main login page for student portal.</div>
+                        <div class="status">Completed</div>                    
+                    </div>
+                    <div class="card complete">
+                        <div class="work">Register</div>
+                        <div class="name">Lah Hong Wai</div>
+                        <div class="desc">Only parents can register using a special username.</div>
+                        <div class="status">Completed</div>                    
+                    </div>
+                    <div class="card complete">
+                        <div class="work">Dashboard</div>
+                        <div class="name">Lah Hong Wai</div>
+                        <div class="desc">Users navigate courses, check out assignments and many more through the dashboard.</div>
+                        <div class="status">Completed</div>                    
+                    </div>
+                    <div class="card complete">
+                        <div class="work">Course</div>
+                        <div class="name">Lah Hong Wai</div>
+                        <div class="desc">This is the main course page, where users select specific courses.</div>
+                        <div class="status">Completed</div>                    
+                    </div>
+                    <div class="card complete">
+                        <div class="work">Course: View</div>
+                        <div class="name">Lah Hong Wai</div>
+                        <div class="desc">Users see their specific course here.</div>
+                        <div class="status">Completed</div>                    
+                    </div>
+                    <div class="card complete">
+                        <div class="work">Submission box</div>
+                        <div class="name">Lah Hong Wai</div>
+                        <div class="desc">Teachers request student submissions, complete with features.</div>
+                        <div class="status">Completed</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Assessments</div>
+                        <div class="name">Lam Pei Ling</div>
+                        <div class="desc">Users can view quizzes and exams easily with a dedicated dashboard.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Grades</div>
+                        <div class="name">Lam Pei Ling</div>
+                        <div class="desc">Grades can be seen here.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Exam</div>
+                        <div class="name">Lam Pei Ling</div>
+                        <div class="desc">Exam schedules and results can be seen here.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Assignment</div>
+                        <div class="name">Lam Pei Ling</div>
+                        <div class="desc">Assignment schedules and results can be seen here.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Calendar: Weekly</div>
+                        <div class="name">Zhang Hanjie</div>
+                        <div class="desc">Weekly calendar for viewing</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Calendar: Academic</div>
+                        <div class="name">Zhang Hanjie</div>
+                        <div class="desc">Shows the academic calendar for the year.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Profile: Student</div>
+                        <div class="name">Zhang Hanjie</div>
+                        <div class="desc">Shows the profile for student.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Profile: Parent</div>
+                        <div class="name">Zhang Hanjie</div>
+                        <div class="desc">Shows the profile for parents.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
+                    <div class="card in-progress">
+                        <div class="work">Profile: Teacher</div>
+                        <div class="name">Zhang Hanjie</div>
+                        <div class="desc">Shows the profile for teachers.</div>
+                        <div class="status">In progress</div>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -196,9 +171,14 @@
                         assignment_turned_in
                     </span>
                     <div class="title">Assignment 2: Responsibilities</div>
+                    <div onclick="toggleDiv(2)">
+                        <span id="tog2" class="material-icons">
+                            expand_less
+                        </span>
+                    </div>
                 </div>                
             </div>  
-            <div class="container">
+            <div class="container" id="2">
                 <div class="inner-container">
                     <div class="none">Commencing 24 November 2021</div>
                 </div>
@@ -212,5 +192,5 @@
             <div>Xiamen University Malaysia</div>
         </div>
     </div>
-
+    <script src="toggleDiv.js"></script>
 </body>

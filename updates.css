@@ -110,3 +110,17 @@ section {
     color:rgb(120, 120, 120);
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 641px) { 
+    .leftnav {
+        display: none;
+    }
+
+    .img-link {
+        width: 45%;
+    }
+
+    img, .img-ref {
+        width: 100%;
+    }
+}
