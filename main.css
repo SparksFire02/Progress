@@ -60,10 +60,11 @@ nav a.active {
 /* Progress Section */
 .progress-box {
     display: flex;
+    justify-content: space-between;
 }
 
 .progress-tab {
-    width: 30%;
+    width: 33%;
     background: white;
     margin: 5px;
     padding: 20px;
